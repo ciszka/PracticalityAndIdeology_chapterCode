@@ -1,14 +1,21 @@
 ---
-title: 'Practicality and ideology Examining site selection for American children’s
-  institutions'
+title: "Practicality and ideology Examining site selection for American childrens institutions"
 author: "Przystupa, Paulina"
 date: "August 19, 2018"
-output: html_document
+output:
+  html_document:
+    toc: true
+    number_sections: true
 ---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 # Introduction
 ```{r}
-setwd("C:/Users/pprzystupa/Documents/Spring_2017/SAA_2017")
+setwd("C:/Users/pprzystupa/Documents/Publish_Works/WorkingDrafts/CityRelations_NAB_EAO_BookChapter")
 ```
 
 # Import the data into R
